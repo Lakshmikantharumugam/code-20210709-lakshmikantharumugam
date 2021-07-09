@@ -31,7 +31,6 @@ alert("count ->"+count);
 </script>
 
 
-
 Summary:
 
 If the json data is small then we may include it in the script file itself instead of the file, we load the json data.
