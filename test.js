@@ -13,10 +13,10 @@ for(var i=0; i<lakJsons.length; i++){
 	for(var j in lakJson){
 		var lakvalue = lakJson[j];
 		var lakkey = j;
-		if(typeof lakkey == string && lakkey == "HeightCm" && typeof lakvalue == number && lakvalue !=0){
+		if(typeof lakkey == "string" && lakkey == "HeightCm" && typeof lakvalue == "number" && lakvalue !=0){
 			height = lakvalue/100;
 		} 
-		if(typeof lakkey == string && lakkey == "WeightKg" && typeof lakvalue == number && lakvalue !=0){
+		if(typeof lakkey == "string" && lakkey == "WeightKg" && typeof lakvalue == "number" && lakvalue !=0){
 			weight = lakvalue;
 		} 
 	}
